@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pemesanan Makanan</title>
+</head>
+<body>
+    <header>
+        <h1>Restoran XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Pemesanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Menu Makanan</h2>
+        <div class="menu-item">
+            <img src="https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/04/Resep-Bakso-urat.jpg?fit=1518%2C1920&ssl=1" alt="Makanan 1">
+            <h3>Makanan 1</h3>
+            <p>Deskripsi Makanan 1</p>
+            <p>Harga: $10</p>
+            <button class="pesan-button">Pesan</button>
+        </div>
+        
+        <div class="menu-item">
+            <img src="https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/04/Resep-Bakso-urat.jpg?fit=1518%2C1920&ssl=1" alt="Makanan 2">
+            <h3>Makanan 2</h3>
+            <p>Deskripsi Makanan 2</p>
+            <p>Harga: $12</p>
+            <button class="pesan-button">Pesan</button>
+        </div>
+
+        <!-- Tambahkan lebih banyak menu item di sini -->
+    </section>
+
+    <section class="pemesanan">
+        <h2>Pemesanan Anda</h2>
+        <ul class="pesanan-list">
+            <!-- Daftar pemesanan akan ditampilkan di sini -->
+        </ul>
+        <p>Total Harga: $<span id="total-harga">0</span></p>
+        <button id="proses-pesan">Proses Pesanan</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restoran XYZ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
