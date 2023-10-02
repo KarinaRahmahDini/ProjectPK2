@@ -25,7 +25,7 @@ nav ul li {
 }
 
 .hero {
-    background-image: url('background-image.jpg'); /* Ganti dengan gambar hero Anda */
+    background-image: url('https://api.vold.dev.fleava.com/pictures/5b39cd517169294aba251f43/new_homepage/thumbnails/large_c5fb5557-8f68-46c7-82c6-2474918934ba.jpg'); /* Ganti dengan gambar hero Anda */
     background-size: cover;
     color: #fff;
     text-align: center;
